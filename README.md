@@ -3,6 +3,18 @@
 ## Overview
 This project leverages Large Language Models (LLMs) to build an AI-powered personalized shopping assistant that understands natural language queries and recommends products tailored to individual preferences.
 
+## Objectives
+- Collect product data via web scraping.
+- Build and fine-tune an LLM-based model for product recommendations.
+- Develop a user-friendly interface (e.g., with Streamlit) for demoing the project.
+
+## Folder Structure
+- `/data`: Raw and processed data.
+- `/notebooks`: Jupyter Notebooks for exploration.
+- `/scripts`: Python scripts (including web scrapers).
+- `/models`: Saved models.
+- `/docs`: Documentation and blueprints.
+
 ## Business Use Case
 - **Goal:** Enhance customer experience on e-commerce platforms with personalized product recommendations.
 - **Impact:** Increase user engagement and conversion rates by predicting customer needs in real time.
@@ -33,6 +45,24 @@ This project leverages Large Language Models (LLMs) to build an AI-powered perso
 - **Libraries/Frameworks:** Hugging Face Transformers, LangChain, BeautifulSoup, Scrapy, MLflow, Docker, Streamlit  
 - **Cloud:** AWS (SageMaker, Lambda)  
 - **Version Control:** Git & GitHub
+
+## 📌 **Project Scope Document**
+
+| Aspect                        | Definition                                                        |
+|-------------------------------|-------------------------------------------------------------------|
+| **Problem Statement**         | Users struggle with product choice overload online.               |
+| **Target Users**              | Casual and frequent online shoppers.                              |
+| **Core Features**             | - Personalized Recommendations (based on user history)<br>- Interactive Product Search & Filters<br>- User Profiles<br>- Visual Explanations |
+| **Advanced Features (Future)**| - Conversational UI integration<br>- Real-time personalized notifications/promotions |
+| **ML Techniques**             | - Collaborative Filtering (Matrix Factorization, ALS)<br>- Content-Based Filtering (TF-IDF, Cosine Similarity) |
+| **Success Metrics**           | Precision@5 (≥75%), Recall, Mean Average Precision (MAP), Normalized Discounted Cumulative Gain (NDCG) |
+
+---
+
+## 🎈 **Usage**
+Run locally with Streamlit:
+```bash
+streamlit run streamlit_app/app.py
 
 ## How to Run
 1. Clone this repository.
