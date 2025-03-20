@@ -1,0 +1,18 @@
+ai_personal_shopper/
+├── README.md                   # Project overview and instructions
+├── requirements.txt            # List of dependencies
+├── Dockerfile                  # Containerization instructions
+├── LICENSE                     # Open-source license (MIT chosen)
+├── CONTRIBUTING.md             # Guidelines for contributions
+├── .github/
+│   └── workflows/
+│       └── ci.yml              # GitHub Actions CI/CD workflow
+├── notebooks/
+│   └── ai_personal_shopper_demo.ipynb   # Detailed Jupyter Notebook (end-to-end code)
+├── scripts/
+│   └── scraper.py              # Skeleton for data scraping with comments
+├── streamlit_app/
+│   └── app.py                  # Streamlit app for demoing the project
+└── docs/
+    ├── Project_Scope.md        # Detailed project scope document
+    └── additional_docs.md      # (Optional) Further documentation if needed
