@@ -1,5 +1,13 @@
-requests
+```plaintext
+transformers
+langchain
 beautifulsoup4
+scrapy
+mlflow
+docker
+streamlit
 pandas
 numpy
+scikit-learn
 jupyter
+requests
