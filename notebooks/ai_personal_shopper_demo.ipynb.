@@ -1,0 +1,15 @@
+# AI Personal Shopper Demo Notebook
+
+This notebook demonstrates the end-to-end process of our AI-powered personalized shopping assistant, including data simulation, preprocessing, model fine-tuning, and generating recommendations.
+
+---
+
+## 1. Setup and Imports
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# For demonstration purposes, we will simulate data
+# from a public dataset or scraped data.
