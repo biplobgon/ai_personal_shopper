@@ -24,4 +24,4 @@ jobs:
       
       - name: Run basic tests
         run: |
-          echo "No tests available yet. Add tests in the future."
+          pytest -v
