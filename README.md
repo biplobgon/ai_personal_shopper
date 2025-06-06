@@ -60,18 +60,25 @@ This project leverages Large Language Models (LLMs) to build an AI-powered perso
 ---
 
 ## 🎈 **Usage**
-Run locally with Streamlit:
+Run the Streamlit demo locally:
 ```bash
 streamlit run streamlit_app/app.py
 ```
 
 ## How to Run
-1. Clone this repository.
-2. Install dependencies:
+Follow these steps to set up the project locally:
+1. Ensure you have **Python 3.10+** installed.
+2. Clone this repository and navigate into the project directory.
+   ```bash
+   git clone <repository-url>
+   cd ai_personal_shopper
+   ```
+3. Install dependencies.
    ```bash
    pip install -r requirements.txt
    ```
-3. Launch the application:
+4. Launch the application.
    ```bash
    streamlit run streamlit_app/app.py
    ```
+
