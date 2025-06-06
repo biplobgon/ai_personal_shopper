@@ -63,10 +63,15 @@ This project leverages Large Language Models (LLMs) to build an AI-powered perso
 Run locally with Streamlit:
 ```bash
 streamlit run streamlit_app/app.py
+```
 
 ## How to Run
 1. Clone this repository.
-2. Install dependencies:  
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-
+   ```
+3. Launch the application:
+   ```bash
+   streamlit run streamlit_app/app.py
+   ```
