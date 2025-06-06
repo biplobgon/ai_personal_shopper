@@ -1,4 +1,3 @@
-```plaintext
 transformers
 langchain
 beautifulsoup4
@@ -11,3 +10,4 @@ numpy
 scikit-learn
 jupyter
 requests
+
